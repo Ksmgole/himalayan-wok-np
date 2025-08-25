@@ -1556,7 +1556,7 @@ h2,
 .h2,
 h3,
 .h3 {
-    margin-top   : var(--vspace-2);
+    /* margin-top   : var(--vspace-2); */
     margin-bottom: var(--vspace-0_75);
 }
 
@@ -3744,13 +3744,14 @@ td:last-child {
     width          : var(--vspace-1_25);
 }
 
+
 .intro-scroll svg {
     height: var(--vspace-0_875);
     width : var(--vspace-0_875);
 }
 
 .intro-scroll svg path {
-    fill: var(--color-bg-accent-light);
+    fill: #b84e1b !important
 }
 
 @keyframes rotation {
@@ -4298,6 +4299,24 @@ td:last-child {
     bottom   : 0.2em;
     left     : -1px;
 }
+.btn--menu {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 32px;
+    background-color: #f9eedd;
+    color: #b84e1b;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn--menu:hover,
+.btn--menu:focus {
+    background-color: #a03f15;
+    color: #fff;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -4392,6 +4411,7 @@ td:last-child {
 
     z-index         : 2;
     position        : relative;
+    margin-bottom: 40px
 }
 
 .gallery-items__item {
