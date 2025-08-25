@@ -4120,11 +4120,11 @@ td:last-child {
 }
 
 .tab-nav__list li[data-tab-active] {
-    border-bottom: 1px solid var(--color-bg-accent);
+    border-bottom: 1px solid #f9eedd;
 }
 
 .tab-nav__list li[data-tab-active] a {
-    background-color: var(--color-bg-accent);
+    background-color: #b84e1b;
     color           : var(--color-white);
 }
 
@@ -4631,7 +4631,7 @@ td:last-child {
 }
 
 .s-footer h6 {
-    color     : var(--color-bg-accent);
+    color     : #b84e1b;
     margin-top: 0;
 }
 
